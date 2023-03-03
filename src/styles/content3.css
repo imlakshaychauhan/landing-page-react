@@ -1,0 +1,18 @@
+.maindiv {
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 200px;
+    background: url("https://images.unsplash.com/photo-1636376137985-15825d2a75cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHw1NHx8ZGFyayUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNjc3ODU0NzU1&ixlib=rb-4.0.3&q=80&w=1080");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.maindiv hr {
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}

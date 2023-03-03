@@ -1,0 +1,28 @@
+.content4 {
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+.content4 hr {
+    width: 60px;
+    height: 4px;
+    background-color: #000;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.section-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@media(max-width: 1360px) {
+    .section-box {
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+        width: 100px;
+        justify-content: center;
+    }    
+}

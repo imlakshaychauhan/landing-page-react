@@ -1,0 +1,22 @@
+.main-div {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1529607697227-d616efef768f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHwxN3x8ZGFyayUyMGFyY2hpdGVjdHVyZXxlbnwwfHx8fDE2Nzc4NDU3Njc&ixlib=rb-4.0.3&q=80&w=1080");
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 160px;
+    padding-right: 40px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 768px) {
+    .main-div h1, .main-div p{
+        margin-left: 5px;
+    }
+}

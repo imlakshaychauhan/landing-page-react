@@ -1,0 +1,16 @@
+.footer-div {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    line-height: 2;
+}
+@media(max-width: 445px) {
+    .footer-div {
+        padding-left: 20px;
+    }
+}

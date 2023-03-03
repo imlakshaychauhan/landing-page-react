@@ -1,0 +1,49 @@
+.gradient-div {
+    color: white;
+    background: linear-gradient(90deg, rgba(93,92,106,1) 0%, rgba(132,132,218,1) 40%, rgba(69,225,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gradient-div span {
+    padding-top: 30px;
+}
+.gradient-div button {
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+@media(max-width: 535px) {
+    .gradient-div {
+        color: white;
+        background: linear-gradient(90deg, rgba(93,92,106,1) 0%, rgba(132,132,218,1) 40%, rgba(69,225,255,1) 100%);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gradient-div span {
+        padding-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
